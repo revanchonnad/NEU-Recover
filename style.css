@@ -705,8 +705,12 @@ td {
     align-items: center;
     padding: 10px;
     background-color: black;
-    font-size: 13px;
+    font-size: 10px;
     color: #D41B2C;
     margin-top: 40px;
 }
+form{
+    margin: 10px;
+}
+
 }
