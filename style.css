@@ -677,4 +677,36 @@ td {
     font-size: 8px;
     width: 130px;
 }
+.foot-title{
+    font-size: 22px;
+}
+.foot-locs{
+    font-size: 8px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+}
+.foot-links {
+    font-size: 8px;
+    font-weight: lighter;
+    display: flex
+;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+}
+.contact-info-last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    font-size: 13px;
+    color: #D41B2C;
+    margin-top: 40px;
+}
 }
