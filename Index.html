@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+  <title>NEU Recover</title>
+  <link rel="icon" type="image/x-icon" href="favicon-16x16.webp">
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div id="headPart">
+        <div class="logo">
+          <a href="https://www.northeastern.edu/" target="_blank">
+            <svg class="w-7 h-7" viewBox="0 0 32 32" fill="none" aria-label="Northeastern University">
+              <path
+                d="M28 11c0-4 1.3-5.3 4-6.3V4h-8.8v.7c2.7 1 4 2.3 4 6.3v11.7L8.6 4.9C7.8 4.1 7.6 4 7 4H0v.7c1.5.2 2.5.6 4.7 2.7l.8.8v13.3c0 4-1.3 5.3-4 6.3v.7h8.8v-.7c-2.7-1-4-2.3-4-6.3V8.8l21.1 19.8h.6V11z"
+                fill="#fff"></path>
+            </svg>
+            
+          </a>
+        </div>
+        <div class="heading">
+          <h3>NEU Recover</h3>
+        </div>
+      </div>
+      <menu>
+        <li> <a href="#home">Home</a></li>
+        <li> <a href="#lostItems">Lost Items</a></li>
+        <li> <a href="#foundItems">Found Items</a></li>
+        <li> <a href="#report">Report Lost/Found</a></li>
+      </menu>
+    </div>
+  </header>
+  <section id="home">
+    <div class="hero">
+      <video class="video-bg" autoplay muted loop id="homeVideo">
+        <source src="videoplayback (1).mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+      <div class="info1">
+        <h1>Welcome to <span class="info-welcome">NEU Recover!</span> </h1>
+        <p>NEU Recover is your go-to platform for finding and reporting lost items at Northeastern University. Whether
+          you've lost something or found an item, we help reconnect students with their belongings quickly and easily.
+          Browse the latest reports, submit your own, and let's recover what's lost together.</p>
+        <div class="ctas">
+          <a href="#report"> <button class="cta">Report Lost</button></a>
+          <a href="#report"><button class="cta">Report Found</button></a>
+        </div>
+
+      </div>
+
+      <div class="recovery-stats" id="bottomRightStats">
+        <table>
+          <tbody>
+            <tr>
+              <td>Items Found</td>
+              <td>
+                <div class="progress-container">
+                  <div class="progress-bar" style="height: 80%;"></div>
+                </div>
+
+              </td>
+
+
+              <td>Items Recovered</td>
+              <td>
+                <div class="progress-container">
+                  <div class="progress-bar" style="height: 65%;"></div>
+                </div>
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+
+   
+  </section>
+
+  <section id="lostItems">
+    <div class="lost">
+      <h2>List of all Lost items</h2>
+      <div class="items">
+
+        <div class="item">
+          <div class="item-image">
+            <img src="cycle2.jpeg" alt="item1">
+          </div>
+          <div class="item-info">
+            <h3>Lost Cycle </h3>
+            <p><span class="red">Last Seen</span> In the library.</p>
+            <p>If found contact:</p>
+            <div class="contact-details">
+              <img src="user-solid.svg" alt="">
+              <div class="contact-info">
+                <p>John Doe</p>
+                <p>john.doe@northeastern.edu</p>
+              </div>
+            </div>
+            <div class="status">
+              <h3> Status : <span class="found"> Found</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="keys.webp" alt="item1">
+          </div>
+          <div class="item-info">
+            <h3>Lost Cycle </h3>
+            <p><span>Last Seen</span> In the library.</p>
+            <p>If found contact:</p>
+            <div class="contact-details">
+              <img src="user-solid.svg" alt="">
+              <div class="contact-info">
+                <p>John Doe</p>
+                <p>john.doe@northeastern.edu</p>
+              </div>
+            </div>
+            <div class="status">
+              <h3> Status : <span class="notFound"> Not Found</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="wallet.jpg" alt="item1">
+          </div>
+          <div class="item-info">
+            <h3>Lost Cycle </h3>
+            <p><span>Last Seen</span> In the library.</p>
+            <p>If found contact:</p>
+            <div class="contact-details">
+              <img src="user-solid.svg" alt="">
+              <div class="contact-info">
+                <p>John Doe</p>
+                <p>john.doe@northeastern.edu</p>
+              </div>
+            </div>
+            <div class="status">
+              <h3> Status : <span class="found"> Found</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="laptop.webp" alt="item1">
+          </div>
+          <div class="item-info">
+            <h3>Lost Cycle </h3>
+            <p><span>Last Seen</span> In the library.</p>
+            <p>If found contact:</p>
+            <div class="contact-details">
+              <img src="user-solid.svg" alt="">
+              <div class="contact-info">
+                <p>John Doe</p>
+                <p>john.doe@northeastern.edu</p>
+              </div>
+            </div>
+            <div class="status">
+              <h3> Status : <span class="notFound"> Not Found</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="book.jpg" alt="item1">
+          </div>
+          <div class="item-info">
+            <h3>Lost Cycle </h3>
+            <p><span>Last Seen</span> In the library.</p>
+            <p>If found contact:</p>
+            <div class="contact-details">
+              <img src="user-solid.svg" alt="">
+              <div class="contact-info">
+                <p>John Doe</p>
+                <p>john.doe@northeastern.edu</p>
+              </div>
+            </div>
+            <div class="status">
+              <h3> Status : <span class="found"> Found</span></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="foundItems">
+    <div class="found">
+      <h2>List of all Found items</h2>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-image">
+          <img src="phone.webp" alt="item1">
+        </div>
+        <div class="item-info">
+          <h3>Lost Cycle </h3>
+          <p><span class="found-info">Found</span> In the library.</p>
+          <p>To Claim contact:</p>
+          <div class="contact-details">
+            <img src="user-solid.svg" alt="">
+            <div class="contact-info">
+              <p>John Doe</p>
+              <p>john.doe@northeastern.edu</p>
+            </div>
+          </div>
+          <div class="status">
+            <h3> Status : <span class="notFound"> Not Claimed</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-image">
+          <img src="cycle.avif" alt="item1">
+        </div>
+        <div class="item-info">
+          <h3>Lost Cycle </h3>
+          <p><span class="found-info">Found</span> In the library.</p>
+          <p>To Claim contact:</p>
+          <div class="contact-details">
+            <img src="user-solid.svg" alt="">
+            <div class="contact-info">
+              <p>John Doe</p>
+              <p>john.doe@northeastern.edu</p>
+            </div>
+          </div>
+          <div class="status">
+            <h3> Status : <span class="notFound"> Not Claimed</span></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="wallet.jpg" alt="item1">
+        </div>
+        <div class="item-info">
+          <h3>Lost Cycle </h3>
+          <p><span class="found-info">Found</span> In the library.</p>
+          <p>To Claim contact:</p>
+          <div class="contact-details">
+            <img src="user-solid.svg" alt="">
+            <div class="contact-info">
+              <p>John Doe</p>
+              <p>john.doe@northeastern.edu</p>
+            </div>
+          </div>
+          <div class="status">
+            <h3> Status : <span class="found"> Claimed</span></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="laptop.webp" alt="item1">
+        </div>
+        <div class="item-info">
+          <h3>Lost Cycle </h3>
+          <p><span class="found-info">Found</span> In the library.</p>
+          <p>To Claim contact:</p>
+          <div class="contact-details">
+            <img src="user-solid.svg" alt="">
+            <div class="contact-info">
+              <p>John Doe</p>
+              <p>john.doe@northeastern.edu</p>
+            </div>
+          </div>
+          <div class="status">
+            <h3> Status : <span class="notFound"> Not Claimed</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-image">
+          <img src="book.jpg" alt="item1">
+        </div>
+        <div class="item-info">
+          <h3>Lost Cycle </h3>
+          <p><span class="found-info">Found</span> In the library.</p>
+          <p>To Claim contact:</p>
+          <div class="contact-details">
+            <img src="user-solid.svg" alt="">
+            <div class="contact-info">
+              <p>John Doe</p>
+              <p>john.doe@northeastern.edu</p>
+            </div>
+          </div>
+          <div class="status">
+            <h3> Status : <span class="found"> Claimed</span></h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="report">
+    <div class="report-title">
+      <h2>Report Lost <span>/</span> Found Item</h2>
+    </div>
+
+    <form action="">
+     
+      <label for="item-status">Are you reporting a lost or found item?</label>
+      <select id="item-status" name="item_status" required>
+        <option value="lost">Lost</option>
+        <option value="found">Found</option>
+      </select>
+
+    
+      <label for="item-description">Item Description</label>
+      <textarea id="item-description" name="item_description" placeholder="Describe the item (color, size, brand, etc.)"
+        required></textarea>
+
+     
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" placeholder="Where was it lost/found?" required>
+
+     
+      <label for="date">Date Lost/Found</label>
+      <input type="date" id="date" name="date" required>
+
+   
+      <label for="contact">Your Contact Information</label>
+      <input type="tel" id="contact-num" name="contact" placeholder="Phone number" required>
+
+      
+      <label for="email">Your Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Email address" required>
+
+    
+      <label for="item-image">Upload Image (optional)</label>
+      <input type="file" id="item-image" name="item_image" accept="image/*">
+
+  
+      <button type="submit" class="cta-button">Submit Report</button>
+    </form>
+  </section>
+
+  <section id="testimonials">
+    <h2>Success Stories</h2>
+    <p>Listen to how <span> NEU Recover</span> has helped our students find their lost items!</p>
+    <div class="testimonials">
+
+
+      <div class="testimonial">
+        <h3>John Doe - Found His Wallet</h3>
+        <audio controls>
+          <source src="Testimonials.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div class="testimonial">
+        <h3>Jane Smith - Returned a Laptop</h3>
+        <audio controls>
+          <source src="Testimonials.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>What should I do if I lost an item?</summary>
+      <p>If you've lost an item, simply fill out the report form with as much detail as possible. We will do our best to
+        assist you in recovering your lost belongings.</p>
+    </details>
+
+    <details>
+      <summary>How do I report a found item?</summary>
+      <p>To report a found item, fill out the report form with information about the item and where it was found. We'll
+        help connect the item to its owner.</p>
+    </details>
+
+    <details>
+      <summary>How long does it take to recover a lost item?</summary>
+      <p>It depends on the situation. We recommend checking back regularly and keeping an eye on any updates related to
+        your report.</p>
+    </details>
+  </section>
+
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+
+    <form action="">
+      
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+     
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+    
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+
+
+    <div class="contact-info-last">
+      <p>Email: <a href="mailto:recover@neu.edu">recover@neu.edu</a></p>
+      <p>Phone: <a href="tel:+123456789">+1 234 567 89</a></p>
+    </div>
+  </section>
+  <footer>
+    <div class="foot-title">
+      Northeastern University
+    </div>
+    <div class="foot-locs">
+      <li> Boston</li>
+      <li>Arlington </li>
+      <li> Boston </li>
+      <li>Burlington </li>
+      <li> Charlotte</li>
+      <li>London </li>
+      <li> Miami</li>
+      <li>Nahant </li>
+      <li>Oakland </li>
+      <li>Portland </li>
+      <li>Seattle </li>
+      <li>Silicon Valley </li>
+      <li>Toronto </li>
+      <li>Vancouver </li>
+    </div>
+    <div class="foot-links">
+      <li>
+        Emergency Information
+        |
+      </li>
+      <li>
+        Privacy Policy
+        |
+      </li>
+      <li>
+        Accessibility
+        |
+      </li>
+      <li>
+        © 2024 Northeastern University
+      </li>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
