@@ -646,4 +646,35 @@ td {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.ctas{
+    margin-top: 30px;
+}
+.item-info h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.item {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 220px;
+    background-color: #d41b2d16;
+    border: 1px solid black;
+    box-shadow: 0 10px 16px rgb(0 0 0 / 69%);
+}
+.item img {
+    width: 150px;
+    max-height: 85px;
+}
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 8px;
+    width: 130px;
+}
 }
