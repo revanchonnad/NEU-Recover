@@ -462,6 +462,16 @@ form button {
 form button:hover {
   background-color: #d00000;
 }
+@media (max-width: 440px) {
+form input, form textarea {
+  width: 300px;
+  padding: 3px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+}
+
 
 
 .contact-info a {
@@ -564,4 +574,76 @@ td{
   position: absolute;
   bottom: 0;
 
+}
+
+@media (max-width: 440px) {
+.heading h3{
+    font-family: "Lato", sans-serif, "Material Icons";
+    font-weight: 100;
+    font-size: 15px;
+   
+}
+menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* margin-right: 20px; */
+    padding-left: 11px;
+    margin: 0px;
+}
+menu li {
+    font-family: "Lato", sans-serif, "Material Icons";
+    font-weight: lighter;
+    font-size: 11px;
+    cursor: pointer;
+}
+.info1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.info1 span {
+    font-size: 32px;
+}
+.info1 p {
+    font-size: 15px;
+    max-width: 900px;
+    padding: 10px;
+    background-color: #50505096;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.ctas button {
+    padding: 20px;
+    border: 1px solid red;
+    background-color: #000000b5;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+}
+td {
+    padding: 10px;
+    font-size: 12px;
+}
+
+#bottomRightStats {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+     padding: 0px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 }
